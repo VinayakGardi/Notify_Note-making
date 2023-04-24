@@ -33,19 +33,19 @@
 
             <ImageView
                 android:id="@+id/ig_save"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
-                android:padding="10dp"
                 android:layout_marginRight="14dp"
+                android:padding="10dp"
                 android:src="@drawable/check" />
         </RelativeLayout>
 
     </Toolbar>
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/note_title"
         android:layout_width="0dp"
         android:layout_marginRight="16dp"
         android:layout_marginLeft="16dp"
@@ -53,26 +53,29 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Title"
+        android:hint="Title"
+        android:textSize="26sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.164"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/materialToolbar" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/note_"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="16dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Note"
+        android:hint="Note"
+        android:gravity="top"
+        android:lineSpacingMultiplier="1.5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/note_title"
         app:layout_constraintVertical_bias="0.012" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
