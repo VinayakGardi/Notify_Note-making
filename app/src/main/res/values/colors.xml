@@ -12,4 +12,12 @@
     <color name="app_theme_light">#FAF9CE</color>
     <color name="edit_text_border">#03A9F4</color>
     <color name="edit_text_background">#f6fbff</color>
+
+    <color name="Notes1">#FF5733</color>
+    <color name="Notes2">#FB0000</color>
+    <color name="Notes3">#DAF7A6</color>
+    <color name="Notes4">#2A49A3</color>
+    <color name="Notes5">#FBF000</color>
+    <color name="Notes6">#71EA5B</color>
+
 </resources>
