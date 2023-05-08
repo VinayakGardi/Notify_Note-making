@@ -3,7 +3,7 @@ package com.example.notify.Database
 import androidx.lifecycle.LiveData
 import com.example.notify.Models.Note
 
-class Notesrepositry(private val noteDao: NoteDao) {
+class NoteRepository(private val noteDao: NoteDao) {
 
     val allNotes : LiveData<List<Note>> = noteDao.getAllNotes()
 

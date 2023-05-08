@@ -3,6 +3,7 @@ package com.example.notify.Models
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
+import java.io.Serializable
 
 @Entity(tableName = "notes_tables")
 
@@ -12,4 +13,4 @@ data class Note(
     @ColumnInfo(name = "Description") val description : String?,
     @ColumnInfo(name = "Title") val title : String?
 
-)
+)  : java.io.Serializable
